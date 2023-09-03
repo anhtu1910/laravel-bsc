@@ -1,0 +1,24 @@
+{
+    "name": "tutna/laravel-bsc",
+    "description": "This is a utility package that supports integrating Laravel framework with the BSC (BNB Smart Chain).",
+    "type": "library",
+    "require": {
+        "web3p/web3.php": "dev-master"
+    },
+    "require-dev": {
+        "web3p/web3.php": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tutna\\LaravelBsc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TuTNA",
+            "email": "anhtu1910@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
